@@ -33,6 +33,8 @@ Contém documentos de referência sobre o concurso e conteúdo programático:
 
 - **[conteudo.md](docs/conteudo.md)** - Conteúdo programático completo de todas as disciplinas
 - **[analise-banca-idcap.md](docs/analise-banca-idcap.md)** - Análise do perfil e padrões da banca IDCAP
+- **[mcp-obsidian-ferramentas.md](docs/mcp-obsidian-ferramentas.md)** - Documentação completa das ferramentas MCP Obsidian
+- **[mcp-perplexity-ferramentas.md](docs/mcp-perplexity-ferramentas.md)** - Documentação completa das ferramentas MCP Perplexity Search
 
 ### 📖 `/materiais-referencia` - Materiais de Referência
 
@@ -128,6 +130,20 @@ pdftotext -layout arquivo.pdf saida.txt
 ```bash
 python scripts/criar_prova_01.py
 ```
+
+### Integração via MCP (Model Context Protocol)
+
+O repositório possui 2 integrações MCP configuradas:
+
+**MCP Obsidian:**
+- Gerenciamento de notas no vault Obsidian
+- Veja [documentação completa](docs/mcp-obsidian-ferramentas.md)
+
+**MCP Perplexity Search:**
+- Busca inteligente com IA e citações
+- Ideal para pesquisa legislativa
+- Veja [documentação completa](docs/mcp-perplexity-ferramentas.md)
+- ⚠️ **Requer reiniciar Claude Code para ativar**
 
 ---
 

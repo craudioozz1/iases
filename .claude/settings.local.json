@@ -5,9 +5,26 @@
       "Bash(latex:*)",
       "Bash(pdflatex:*)",
       "Bash(xelatex:*)",
-      "Bash(choco:*)"
+      "Bash(choco:*)",
+      "Bash(findstr:*)",
+      "Bash(uvx:*)",
+      "Bash(tasklist:*)",
+      "Bash(curl:*)",
+      "mcp__arjunkmrm-perplexity-search__search",
+      "WebFetch(domain:github.com)",
+      "Bash(pip install:*)",
+      "Bash(python convert_simulados_to_latex.py:*)",
+      "Bash(dir:*)",
+      "Bash(nul)",
+      "Bash(netstat:*)",
+      "Bash(powershell -Command \"try { $response = Invoke-WebRequest -Uri ''http://127.0.0.1:27124/'' -Headers @{''Authorization''=''Bearer d844935b21271c0ad41d7a9b87ccfd0141dbf0a935627dddd2376c22fdade35a''} -UseBasicParsing; $response.Content } catch { Write-Host $_Exception.Message }\")",
+      "Bash(cmd //c \"tasklist /FI \"\"PID eq 3468\"\"\")",
+      "Bash(tree:*)",
+      "Bash(scriptscompilar.bat)",
+      "Bash(copy:*)"
     ],
     "deny": [],
     "ask": []
-  }
+  },
+  "enableAllProjectMcpServers": true
 }

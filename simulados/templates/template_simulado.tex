@@ -1,0 +1,245 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{ulem}
+
+% ===== CONFIGURAÇÃO DE PÁGINA =====
+\geometry{top=2cm, bottom=2.5cm, left=1.5cm, right=1.5cm}
+
+% ===== RODAPÉ =====
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[L]{\small AGENTE SOCIOEDUCATIVO - MASCULINO - \thepage}
+\fancyfoot[R]{\small www.ioconcursos.com.br}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ===== FORMATAÇÃO =====
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\columnsep}{1cm}
+
+% ===== COMANDOS PERSONALIZADOS =====
+
+% Cabeçalho de disciplina
+\newcommand{\disciplina}[1]{%
+  \vspace{1em}
+  {\large\textbf{\uline{#1}}}
+  \vspace{0.5em}
+}
+
+% Gabarito correto (opcional - comente para não mostrar)
+% \newcommand{\correto}[1]{{\color{red}\textbf{(Correta: #1)}}}
+
+% Questão anulada (informativo)
+\newcommand{\anulada}{{\color{red}\textbf{(Questão anulada)}}}
+
+% ===== INÍCIO DO DOCUMENTO =====
+\begin{document}
+
+% ===== PÁGINA DE TÍTULO (OPCIONAL) =====
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    {\Huge\bfseries Simulado IASES 2025\par}
+    \vspace{1cm}
+    {\Large Agente Socioeducativo\par}
+    \vspace{1.5cm}
+    {\large Questões 01-70\par}
+    \vspace{2cm}
+    {\large Nome do Simulado\par}
+    \vfill
+    {\large Espírito Santo - Brasil\par}
+    {\large \today\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+% ===== INÍCIO DO LAYOUT EM DUAS COLUNAS =====
+\begin{multicols}{2}
+
+\section*{Concurso Público IASES 2022}
+\textsc{AGENTE SOCIOEDUCATIVO - MASCULINO}
+
+\rule{\columnwidth}{0.5pt}
+
+% ============================================
+% LÍNGUA PORTUGUESA (10 questões)
+% ============================================
+
+\disciplina{Língua Portuguesa}
+
+\small
+
+% ----- TEXTO BASE (se houver) -----
+\textbf{Texto Base - Questões 1 a 5}
+
+\textbf{Título do Texto}
+
+\textit{Informações sobre origem, autor, data...}
+
+Texto completo aqui. Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+
+\textit{\small Disponível em: https://fonte.com.br Acesso em: dd/mm/aaaa}
+
+% ----- QUESTÕES -----
+
+\textbf{Questão 01}
+
+Enunciado da questão número um...
+
+(A) Primeira alternativa.
+
+(B) Segunda alternativa.
+
+(C) Terceira alternativa.
+
+(D) Quarta alternativa.
+
+(E) Quinta alternativa.
+
+\textbf{Questão 02}
+
+Enunciado da questão número dois...
+
+(A) Primeira alternativa.
+
+(B) Segunda alternativa.
+
+(C) Terceira alternativa.
+
+(D) Quarta alternativa.
+
+(E) Quinta alternativa.
+
+\textbf{Questão 03}
+
+Enunciado da questão número três...
+
+(A) Primeira alternativa.
+
+(B) Segunda alternativa.
+
+(C) Terceira alternativa.
+
+(D) Quarta alternativa.
+
+(E) Quinta alternativa.
+
+% ... Continue até questão 10
+
+% ============================================
+% RACIOCÍNIO LÓGICO (5 questões)
+% ============================================
+
+\disciplina{Raciocínio Lógico}
+
+\textbf{Questão 11}
+
+Enunciado...
+
+(A) Alternativa A.
+
+(B) Alternativa B.
+
+(C) Alternativa C.
+
+(D) Alternativa D.
+
+(E) Alternativa E.
+
+% ... Continue até questão 15
+
+% ============================================
+% INFORMÁTICA (5 questões)
+% ============================================
+
+\columnbreak  % Força quebra de coluna
+
+\disciplina{Informática}
+
+\textbf{Questão 16}
+
+Enunciado...
+
+(A) Alternativa A.
+
+(B) Alternativa B.
+
+(C) Alternativa C.
+
+(D) Alternativa D.
+
+(E) Alternativa E.
+
+% ... Continue até questão 20
+
+% ============================================
+% CONHECIMENTOS ESPECÍFICOS (50 questões)
+% ============================================
+
+\disciplina{Conhecimentos Específicos}
+
+\textbf{Questão 21}
+
+Enunciado...
+
+(A) Alternativa A.
+
+(B) Alternativa B.
+
+(C) Alternativa C.
+
+(D) Alternativa D.
+
+(E) Alternativa E.
+
+% ... Continue até questão 70
+
+% ===== EXEMPLO DE QUESTÃO COM V/F =====
+%
+% \textbf{Questão XX}
+%
+% Analise as assertivas com V(Verdadeiro) ou F(Falso).
+%
+% (\_\_) Primeira afirmativa.
+%
+% (\_\_) Segunda afirmativa.
+%
+% (\_\_) Terceira afirmativa.
+%
+% Marque a alternativa com a sequência CORRETA:
+%
+% (A) V, V, F.
+%
+% (B) F, V, V.
+%
+% (C) V, F, V.
+%
+% (D) F, F, F.
+%
+% (E) V, V, V.
+
+% ===== EXEMPLO DE QUESTÃO ANULADA =====
+%
+% \textbf{Questão XX}
+%
+% \anulada
+%
+% Enunciado da questão...
+
+% ===== FIM DO LAYOUT EM DUAS COLUNAS =====
+\end{multicols}
+
+\end{document}
